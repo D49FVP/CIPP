@@ -72,6 +72,10 @@ export default function UserDetails({ tenantDomain, userId, className = null }) 
       heading: 'Business Phone',
       body: user.businessPhones,
     },
+    {
+      heading: 'Date Created',
+      body: user.createdDateTime,
+    },
   ]
 
   return (
