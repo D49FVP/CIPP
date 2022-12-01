@@ -101,6 +101,12 @@ const Altcolumns = [
     cell: cellBooleanFormatter({ colourless: true }),
     exportSelector: 'CoveredBySD',
   },
+  {
+    selector: (row) => row['createdDateTime'],
+    name: 'When Created',
+    sortable: true,
+    exportSelector: 'createdDateTime',
+  },
 ]
 
 const conditionalRowStyles = [
